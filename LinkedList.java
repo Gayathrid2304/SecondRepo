@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Scanner;
+
 class Lll{
     Node head;
     Node tail;
@@ -100,7 +101,7 @@ class Lll{
 }
 class LinkedList{
     public static void main(String[] args){
-        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         Lll l = new Lll();
         l.insertBeginn(3);
         l.insertBeginn(2);
